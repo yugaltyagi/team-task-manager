@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-surface: #0f1419;
+  --color-surface-2: #1a222d;
+  --color-border: #2a3544;
+  --color-accent: #3b82f6;
+  --color-accent-soft: rgba(59, 130, 246, 0.15);
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: linear-gradient(160deg, #0a0e14 0%, #121a24 45%, #0d1218 100%);
+  color: #e8edf4;
+}
